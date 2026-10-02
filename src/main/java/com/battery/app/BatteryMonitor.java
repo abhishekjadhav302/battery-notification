@@ -22,7 +22,7 @@ public class BatteryMonitor {
 
 					// LOW BATTERY notification
 
-					if (battery <= 80 && !notificationShown) {
+					if (battery <= 20 && !notificationShown) {
 
 						Platform.runLater(() -> {
 
